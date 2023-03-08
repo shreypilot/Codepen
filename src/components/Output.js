@@ -2,8 +2,8 @@ import React from 'react'
 
 const Output = () => {
   return (
-    <div>
-      Output
+    <div className='bg-white box-border h-96  '>
+      
     </div>
   )
 }

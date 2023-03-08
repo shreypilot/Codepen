@@ -1,9 +1,10 @@
 import React from 'react'
 import Editor from './Editor'
 import Output from './Output'
+import Footer from './Footer'
 const Body = () => {
   return (
-    <div>
+    <div className='bg-black'>
       <Editor />
       <Output />
     </div>

@@ -4,6 +4,8 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import PushPinIcon from '@mui/icons-material/PushPin';
 import Codepen from "./codepen.png";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import IndeterminateCheckBoxIcon from '@mui/icons-material/IndeterminateCheckBox';
+
 
 const Header = () => {
   return (
@@ -34,29 +36,29 @@ const Header = () => {
       </div>
       <div className='col-span-1/2 flex flex-row  justify-end pr-4 space-x-2'>
         <button className='bg-gray-600 font-bold space-x-1 text-white mt-2  px-2 py-3 justify-end items-end w-26 h-12 rounded-sm flex '>
-        <div className= "">
+        <div className= "cursor-pointer">
           ☁️
         </div>
-        <div>
+        <div className='cursor-pointer'>
           Save
         </div>
         </button>
         <div className='bg-gray-600 font-bold text-white mt-2  px-2 py-3 justify-end items-end w-26 h-12 rounded-sm flex  '>
-         <div className='px-1'>
+         <div className='px-1 cursor-pointer'>
           <SettingsIcon />
          </div>
-         <div>
+         <div className='cursor-pointer'>
           Settings
          </div> 
         </div>
-          <div className='bg-gray-600 mt-2 px-2 py-1 justify-end items-end w-12 h-12 rounded-sm'>
-
+          <div className='bg-gray-600 mt-2 px-2 py-1 text-white  pt-3 pl-3 justify-end items-end w-12 h-12 rounded-sm'>
+           <IndeterminateCheckBoxIcon  />
           </div>
-          <div className='bg-gray-600 mt-2 px-2 pt-1 pb-2 flex  justify-end items-end w-16 h-12 rounded-sm'>
-             <PushPinIcon />
+          <div className='bg-gray-600 text-white mt-2 px-2 pt-1 pb-2 flex cursor-pointer justify-end items-end w-16 h-12 rounded-sm'>
+             <PushPinIcon /> 
              <KeyboardArrowDownIcon />
           </div>
-          <div className='bg-green-500 mt-2 px-5 py-1 justify-end items-end w-16 h-12  rounded-sm'>
+          <div className='bg-blue-400 mt-2 px-5 py-1 justify-end items-end w-16 h-12 cursor-pointer  rounded-sm'>
               👧
           </div>
       </div>
